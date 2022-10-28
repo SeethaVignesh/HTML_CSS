@@ -1,0 +1,49 @@
+.tabs {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 1px;
+    background-color: beige;
+}
+
+.home h1 {
+    color: brown;
+}
+
+.home {
+    background-color: rgb(162, 240, 162);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    opacity: 1;
+    background-color: lightgrey;
+}
+
+.item p {
+    text-align: center;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
