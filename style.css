@@ -9,8 +9,22 @@
     background-color: beige;
 }
 
-.home h1 {
+.container h1{
+    color:brown;
+}
+
+.container p{
+    font-size: large;
+    font-family: Arial;
+}
+
+.gallery h1{
+    text-align: center;
     color: brown;
+}
+
+.home h1{
+    color:brown;
 }
 
 .home {
@@ -24,11 +38,11 @@
 
 }
 
-a:link {
+.tabs a:link {
     color: blue;
 }
 
-a:visited {
+.tabs a:visited {
     color: blue;
 }
 
@@ -41,7 +55,7 @@ a:hover {
     text-align: center;
 }
 
-.footer
+.bottom
 {
     display: flex;
     justify-content: flex-end;
